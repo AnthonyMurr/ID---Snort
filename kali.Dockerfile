@@ -11,7 +11,7 @@ RUN apt update && \
         python3-scapy \
         tcpdump \
         tcpreplay \
-        iputils-pin
+        iputils-ping
 
 # Start in an interactive shell by default
 CMD ["bash"]
